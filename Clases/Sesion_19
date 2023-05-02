@@ -1,0 +1,14 @@
+import sys
+import PyQt5.QtQuickWidgets as PyQT
+from PyQt5 import uic
+
+class principal(PyQT.QMainWindow):
+
+
+def main():
+    app = PyQT.QApplication()
+    window =  principal()
+    sys.exit(app.exec_())
+
+if __name__=="__main__":
+    main()
