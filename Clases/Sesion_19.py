@@ -12,7 +12,7 @@ class principal(PyQT.QMainWindow):
         self.show()
 
         self.pushButton.clicked.connect(lambda:self.calcular())#lambda no se para que es, lambda y () se puede quitar
-
+        self.actionSalir.triggered.connect(exit)
     def calcular(self):
         texto1=float(self.num1.text())
         texto2=float(self.num2.text())
