@@ -77,7 +77,7 @@
          </widget>
         </item>
         <item>
-         <widget class="QLineEdit" name="lineEdit_2">
+         <widget class="QLineEdit" name="num1">
           <property name="styleSheet">
            <string notr="true">background-color: rgb(255, 255, 255);</string>
           </property>
@@ -88,7 +88,7 @@
       <item>
        <layout class="QHBoxLayout" name="horizontalLayout_2">
         <item>
-         <widget class="QLabel" name="label_3">
+         <widget class="QLabel" name="numb2">
           <property name="styleSheet">
            <string notr="true">font: 9pt &quot;MS Shell Dlg 2&quot;;</string>
           </property>
@@ -98,7 +98,7 @@
          </widget>
         </item>
         <item>
-         <widget class="QLineEdit" name="lineEdit">
+         <widget class="QLineEdit" name="num2">
           <property name="styleSheet">
            <string notr="true">background-color: rgb(255, 255, 255);</string>
           </property>
@@ -108,7 +108,7 @@
       </item>
      </layout>
     </widget>
-    <widget class="QLabel" name="label_4">
+    <widget class="QLabel" name="resultado">
      <property name="geometry">
       <rect>
        <x>90</x>
@@ -154,28 +154,31 @@
      </property>
      <layout class="QVBoxLayout" name="verticalLayout_3">
       <item>
-       <widget class="QRadioButton" name="radioButton_5">
+       <widget class="QRadioButton" name="sumar">
         <property name="text">
          <string>Sumar</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QRadioButton" name="radioButton_6">
+       <widget class="QRadioButton" name="restar">
         <property name="text">
          <string>Restar</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QRadioButton" name="radioButton_7">
+       <widget class="QRadioButton" name="multiplicar">
         <property name="text">
          <string>Multiplicar</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QRadioButton" name="radioButton_8">
+       <widget class="QRadioButton" name="dividir">
         <property name="text">
          <string>Dividir</string>
         </property>
@@ -194,7 +197,7 @@
      </property>
      <layout class="QVBoxLayout" name="verticalLayout_4">
       <item>
-       <widget class="QPushButton" name="pushButton_3">
+       <widget class="QPushButton" name="pushButton">
         <property name="text">
          <string>Calcular</string>
         </property>
